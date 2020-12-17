@@ -1,0 +1,163 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #1c1e21;
+}
+
+/******************NAVBAR******************/
+
+
+
+.navbar-collapse>a{
+    color: #b1b1b1;
+    text-decoration: none;
+    display: inline-block;
+}
+.navbar-collapse>a:hover{
+    color: rgb(255, 255, 255);
+}
+/* #fotos{
+    background-color: #ffffff;
+    overflow: auto;
+} */
+#search-perfil{
+    color: #b1b1b1;
+    padding-right: 10px;
+}
+#search-perfil>input{
+    color:rgb(248, 248, 248);
+    background-color: #474747;
+    border: none;
+    border-radius: 10px;
+}
+/******************CABECERA******************/
+.portada{
+    height: 620px;
+    width: auto;
+}
+#img-portada{
+    height: 350px;
+    width: 100%;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+#img-perfil{
+    position: relative;
+    top: -92px;
+    margin: auto;
+    border-radius: 100%;
+
+}
+.nombre-descripcion{
+    position: relative;
+    top: -85px;
+    margin: auto;
+    color: #ffffff;
+}
+.nombre-descripcion>p{
+    color:#828282;
+}
+hr{
+    border: 1px #494848 solid;
+    width: 94%;
+}
+
+.navbar-perfil>a{
+    padding: 0 10px;
+    color:#929191;
+}
+/******************LEFT PAGINA******************/
+.card{
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+}
+.card-title{
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+}
+.card-text{
+    color:rgb(226, 222, 222);
+}
+.card-imagenes{
+    cursor: pointer;
+}
+
+/******************RIGTH PAGINA******************/
+.publicar{
+     padding: 10px;
+     border-radius: 10px;
+     background-color: rgb(39, 39, 39);
+     height: 238px;
+}
+.publicar>textarea{
+    width: 100%;
+    border: none;
+    overflow: auto;
+    outline: none;
+    background: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+    color:#c4c0c0;
+}
+.publicar>button{
+    border-radius: 10px;
+
+}
+
+/******************POSTS******************/
+#posts{
+
+    padding: 0 20px 10px;
+    color:rgb(255, 255, 255);
+}
+#posts>.card{
+    min-height: 350px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+#posts>.card>hr{
+    margin:auto;
+}
+
+.card>textarea{
+    padding: 15px;
+    border: none;
+    margin: 10px auto;
+    width: 95%;
+    border-radius: 20px;
+    /* overflow: auto; */
+    outline: none;
+    background-color: #4f4f50;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+    color:#e6dede;
+    height: auto;
+}
+.reaccion{
+    text-align: center;
+    padding: 8px 0;
+}
+.reaccionar>a{
+    border:none;
+}
+/*media querys*/
+@media screen and (max-width: 213px){
+    .portada{
+        height: 790px;
+    }
+}
+@media screen and (min-width: 214px) and (max-width: 300px){
+    .portada{
+        height: 690px;
+    }
+}
+@media screen and (max-width: 420px){
+    .card-body>img{
+        height: 200px;
+    }
+}
+
